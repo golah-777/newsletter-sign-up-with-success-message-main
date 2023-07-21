@@ -173,3 +173,179 @@
     margin-left: 35px;
   }
 }
+
+@media only screen and (min-width: 375px) and (max-width:424px){
+
+
+  body{
+    background-color: white;
+    height: 700px;
+    overflow-x: hidden;
+  }
+
+  .svg-mobile{
+    display: inline;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 15px;
+  }
+
+  .svg-mobile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    /* left: -20px; */
+  }
+
+  aside{
+    margin: 0px;
+    height: 300px;
+  }
+
+  main{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+    z-index: 1;
+    /* display: none; */
+    /* overflow-x: hidden; */
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-x: hidden;
+    /* display: none; */
+    padding-top: 30px;
+    /* overflow-x: hidden; */
+  }
+
+  .email-input, .Submit-btn{
+    display: inline-block;
+    width: 80%;
+    height: 37px;
+    border-radius: 6px;
+    margin-left: 40px;
+  }
+
+  .Submit-btn{
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+
+  p{
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .svg{
+    display: none;
+  }
+
+
+  .Success-message{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 390px;
+    height: 100%;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    display: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 150px;
+  }
+  
+  .confirmation-message, .confirmation-message p{
+    width: 100%;
+    margin: 5px 0px;
+    line-height: 20px;
+  }
+  
+  .Success-message h1{
+   margin: 0px;
+  }
+  
+  .confirmation-message strong{
+    font-size: 14px;
+  }
+  
+  .dismiss-btn{
+    width: 100%;
+    height: 37px;
+    border-radius: 6px;
+    /* margin-top: 130px; */
+    margin-bottom: -45px;
+    overflow-x: hidden;
+    position: relative;
+    top: 230px;
+  }
+
+  .attribution{ 
+    font-size: 11px; 
+    margin-left: 50px;
+  }
+
+  .error-message-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 380px;
+    padding: 0px 45px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+  }
+
+  .list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 0px 35px; */
+    /* width: 260px; */
+    position: relative;
+    left:40px;
+  }
+
+  .list span{
+    margin-left: 13px;
+    font-size: 13px;
+    width: 300px;
+  }
+
+  .list svg{
+    width: 20px;
+  }
+
+  p{
+    font-size: 13px;
+    width: 290px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    margin-left: 40px;
+  }
+
+  h1{
+    color: hsl(234, 29%, 20%);
+    margin-left: 40px;
+  }
+}
